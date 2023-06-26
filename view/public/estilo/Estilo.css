@@ -1,0 +1,104 @@
+body {
+	background: url('../imagens/fundo_corpo.png');
+	background-attachment: fixed;
+}
+
+div.moldura1{
+    width: 100%;
+}
+
+body, div.moldura0.conteudo {
+
+	background-color: 	#473C8B;
+	font-family:Arial;
+	font-size:12px;
+}
+
+div.moldura0 {
+	margin: 0 auto;
+	width: 776px;
+}
+
+div.moldura0 > div.superior {
+	background: url('../imagens/fundo_conteudo_superior.png') no-repeat;
+	height: 107px;
+}
+
+div.moldura0 > div.mediano {
+	background-color: white;
+}
+
+div.moldura0 > div.inferior {
+	background: url('../imagens/fundo_conteudo_inferior.png') no-repeat;
+	height: 25px;
+}
+
+div.moldura0 > div.inferior > p {
+	background: url('../imagens/fundo_conteudo_inferior_1.png') no-repeat;
+	height: 25px;
+	margin: 0;
+}
+
+img{
+   border: 0;
+}
+
+div.moldura0.conteudo>div.superior>table>tbody> tr>td:first-child {
+	padding: 0 0 0 10px;
+}
+
+div.moldura0.conteudo>div.superior>table>tbody> tr>td:first-child>h1>a {
+	background: url("../imagens/distribuicao.png") no-repeat;
+	height: 100px;
+	width: 300px;
+}
+
+div.aplicativo > div.mediano > div.celula1 > div.mensagem{
+	display:none;
+}
+
+div.aplicativo > div.mediano > div.celula1 > div.mensagem{
+	display:none;
+}
+
+body{
+	font-family:Arial;
+	outline:none;
+	padding:0px;
+}
+
+input, textarea, select{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+input[type="text"], input[type="password"], textarea, select{
+	border:1px solid  #473C8B;;
+	color:#000000;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus, select:focus{
+	border:1px solid #C69F51;
+}
+
+h2 {
+	color: 	#6959CD;;
+	font-size:20px;
+	margin:0px;
+	text-align:center;
+}
+
+a {
+	outline: 0;
+}
+
+table.dados{
+    border: 0;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+}
+
+tr.titulo{
+    background-color: #c2c3c2;
+}
